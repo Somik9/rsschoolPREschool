@@ -1,0 +1,293 @@
+/*Style CSS*/
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+li {
+  margin: 0;
+}
+
+ul[class] {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*шрифт*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: grey;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #c8c9ccc4;    
+}
+
+/*хедер блок*/
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+   
+}
+
+/*меню*/
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #242222ce;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #918a8acc;
+ }
+
+/*главные блоки*/
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-column {
+    width: 45%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    border-right: 10px solid rgba(255, 255, 255);  
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #070707;
+}
+
+.profile-title {
+    margin-bottom: 7px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.profile-subtitle {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile-avatar {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 197px;
+    height: 160px;
+}
+
+.section-title {
+    width: 100%;    
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;     
+}
+
+.section-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 23px;
+    color: #070707;
+}
+
+#about-me {
+    margin-bottom: 12px;
+}
+
+.contacts-item {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+    color: #070707;
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.contacts-link {
+    padding-left: 7px;
+    color: #070707;
+    transition: 0.5s;
+}
+
+.contacts-link:hover {
+    color: #5f5f5e;
+}
+
+.skills-item {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #070707;
+}
+
+.right-column {
+    width: 60%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    border-left: 10px solid rgba(7, 7, 7);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;  
+}
+
+.education-title,
+.code-title,
+.projects-title {
+    align-self: flex-end;
+    color: #ffffff;
+    background-color: #070707;
+  }
+
+.courses-section>ul.education-list {
+    margin-left: 25px;
+}
+
+.education-item {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+}
+
+.years-education {
+    align-self: flex-start;
+}
+
+.years-education,
+.city {
+    font-size: 17px;
+}
+
+.right-col {
+    width: 70%;
+}
+.university {
+    font-size: 17px;
+}
+
+.courses-section {
+    display: flex;
+    flex-direction: column;
+} 
+
+.courses-section,
+.code-section,
+.english-section {
+    padding-left: 0;
+}
+
+.courses-title,
+.english-title {
+    color: #ffffff;
+    background-color: #070707;
+}
+
+.snippet {
+    margin: 0;
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.english-title {
+    margin-top: 0;
+}
+
+.english-section>p {
+    margin-left: 25px;
+}
+
+/*футер*/
+.footer {
+    margin-bottom: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #242222ce;
+}
+
+.rss-link {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-image: url('/assets/svg/rs_school_js.svg');
+    background-repeat: no-repeat;   
+}
+
+
