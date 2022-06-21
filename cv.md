@@ -1,5 +1,5 @@
 # [rsschool-cv](https://somik9.github.io/rsschool-cv/cv)
-https://somik9.github.io/rsschool-cv/
+
 # Hi! My name is Serg
 
 ## Contact info:
@@ -23,13 +23,14 @@ _like a SysAdmin and it was lomg time ago_
 
 ## Education:
 
-* freecodecamp /HTML/CSS/JS & C++ little more
+* freecodecamp /HTML/CSS/JS
 * Valdilen Minin /JS
-* codecademy /HTML/CSS/PHP/JS & C++ little more
+* codecademy /HTML/CSS/PHP/JS
 * Simplelearn 
 * RS-School continuoun...
 
 ## Language:
 1. English level A2
+2. Ukrainian 
 
 

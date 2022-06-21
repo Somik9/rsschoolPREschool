@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mr.Kot'e's CV</title>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code-examples" class="nav-link">Code Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#english" class="nav-link">English</a>
+                    </li>                  
+                  </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <div class="left-column">                
+                <section class="profile">
+                    <h1 class="profile-title">Mr.Kot'e</h1> 
+                    <h3 class="profile-subtitle">I learn JS Front-End in RSSchool!</h3>
+                    <div class="profile-avatar">
+                        <img src="assets/img/catindev.jpg" alt="avatar" class="avatar">
+                    </div>
+                </section>                
+                <section id="about-me">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-text">Nothing to write...</p>
+                </section>              
+                <section id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item">Nur-Sultan, Kazakhstan</li>
+                        <li class="contacts-item">Email: 
+                            <a href="mailto:weblife999@gmail.com" class="contacts-link" title="email">weblife999@gmail.com</a>
+                        </li>                        
+                    </ul>
+                </section>               
+                <section id="skills">
+                    <h2 class="section-title">skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML</li>
+                        <li class="skills-item">CSS</li>
+                        <li class="skills-item">Javascript</li>
+                        <li class="skills-item">Git/GitHub</li>
+                        <li class="skills-item">Figma</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="section courses-section" id="courses">
+                    <h2 class="section-title courses-title">courses</h2>
+                    <ul class="education-list">
+                        <li class="education-item">
+                            <div class="left-col">
+                                <div class="years-education">2022 - ...</div> 
+                            </div>
+                            <div class="right-col">
+                                <div class ="speciality">JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)</div>
+                                <div class="university">THE ROLLING SCOPES SCHOOL</div>
+                            </div>
+                        </li>
+                    </ul>                   
+                </section>                
+                <section class="section code-section" id="code-examples">
+                    <h2 class="section-title code-title">code examples</h2>
+                    <pre class="snippet">
+                        <code>
+const string = 'This is the first sentence. This is another sentence!'
+
+let splitString = string.match(/\S.+?[!?.]/g)
+
+console.log(splitString)
+                        </code>
+                    </pre>
+                </section>                
+                <section class="section english-section" id="english">
+                    <h2 class="section-title english-title">english</h2>
+                    <p>Intermediate</p>
+                </section>                             
+            </div>
+        </div>
+    </main> 
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="copy">© 2022 </div>
+            <div class="footer-link">
+                <a href="https://rs.school/js/" class="rss-link"  target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
